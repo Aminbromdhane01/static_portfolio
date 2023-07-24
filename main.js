@@ -44,7 +44,7 @@ function addStar()
 }
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('images/space.jpg')
+const spaceTexture = new THREE.TextureLoader().load('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg')
 scene.background = spaceTexture ;
 
 const Phototexture = new THREE.TextureLoader().load('images/hamza.jpg')
