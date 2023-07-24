@@ -44,10 +44,10 @@ function addStar()
 }
 Array(200).fill().forEach(addStar)
 
-const spaceTexture = new THREE.TextureLoader().load('https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_1280.jpg')
+const spaceTexture = new THREE.TextureLoader().load('https://images.unsplash.com/photo-1570284613060-766c33850e00?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMHNwYWNlfGVufDB8fDB8fHww&w=1000&q=80')
 scene.background = spaceTexture ;
 
-const Phototexture = new THREE.TextureLoader().load('images/hamza.jpg')
+const Phototexture = new THREE.TextureLoader().load('https://i.ibb.co/R2SjmHs/hamza.jpg')
 const photo = new THREE.Mesh(
   new THREE.BoxGeometry(6,6,6) ,
   new THREE.MeshBasicMaterial ({map : Phototexture})
